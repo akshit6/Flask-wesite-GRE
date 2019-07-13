@@ -14,7 +14,7 @@ body{
     
 }
 
-nav{
+ .mine{
     width: 100%;
     height: 40px;
     background-color: rgb(8,8,8);
@@ -22,33 +22,33 @@ nav{
     line-height: 40px;
 }
 
-nav ul{
-    float: right;
+ .mine ul{
+    float: left;
     margin-right: 3px;
     
 }
 
-nav ul li{
+ .mine ul li{
     list-style-type: none;
     display: inline-block;
     
 
 }
 
-nav ul li a{
-    color: white;
+ .mine ul li a{
+    color: rgb(241, 237, 237);
     text-decoration: none;
     padding: 10px;
 
 }
 
-nav ul li:hover{
+.mine ul li:hover{
     background-color: white;
     color: rgb(8,8,8);
     text-decoration: none;
 }
 
-nav ul li a:hover{
+.mine ul li a:hover{
     
     color: rgb(8,8,8);
 }
@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .swipe{
     text-align: center;
+    font-weight: bold;
 }
 
 .inner-width{
@@ -97,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .testimonial{
-    background: #fffcfc;
+    background: #eeebeb;
     padding: 20px;
     overflow: hidden;
     border-radius: 10px;

@@ -25,7 +25,7 @@ soup5 = BeautifulSoup(fiveth_site.text, 'html.parser')
 
 
 h3 = soup.select('.awa-guide #one .container .content-width h3')
-questions = [h3[0].text, h3[2].text, h3[3].text, h3[5].text, h3[7].text]
+questions1 = [h3[0].text, h3[2].text, h3[3].text, h3[5].text, h3[7].text]
 
 p = soup.select('.awa-guide #one .container .content-width p')
 bulletins = soup.select('.awa-guide #one .container .content-width h4')

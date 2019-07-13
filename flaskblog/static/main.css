@@ -79,3 +79,9 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+li a:hover {
+  background-color:white;
+  color: black;
+  cursor:pointer;
+}
